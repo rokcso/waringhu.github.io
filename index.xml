@@ -8,6 +8,17 @@
     <language>en-us</language>
     <lastBuildDate>Tue, 03 Jan 2023 16:57:04 +0800</lastBuildDate><atom:link href="https://blog.waringhu.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>About waringhu</title>
+      <link>https://blog.waringhu.com/about/</link>
+      <pubDate>Tue, 03 Jan 2023 17:33:40 +0800</pubDate>
+      
+      <guid>https://blog.waringhu.com/about/</guid>
+      <description>Hi there. 👋
+I&amp;rsquo;m waringhu, nice to meet you!
+可能活跃在「即刻」。</description>
+    </item>
+    
+    <item>
       <title>Test</title>
       <link>https://blog.waringhu.com/posts/test/</link>
       <pubDate>Tue, 03 Jan 2023 16:57:04 +0800</pubDate>
@@ -18,6 +29,7 @@
 测试
 测试测试</description>
     </item>
+    
     
   </channel>
 </rss>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on waringhu&#39;s Blog Site</title>
+    <link>https://blog.waringhu.com/posts/</link>
+    <description>Recent content in Posts on waringhu&#39;s Blog Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 03 Jan 2023 16:57:04 +0800</lastBuildDate><atom:link href="https://blog.waringhu.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Test</title>
+      <link>https://blog.waringhu.com/posts/test/</link>
+      <pubDate>Tue, 03 Jan 2023 16:57:04 +0800</pubDate>
+      
+      <guid>https://blog.waringhu.com/posts/test/</guid>
+      <description>测试一 这里是一些测试内容
+测试
+测试
+测试测试</description>
+    </item>
+    
+  </channel>
+</rss>

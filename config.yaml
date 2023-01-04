@@ -1,0 +1,44 @@
+baseURL: https://blog.waringhu.com/
+languageCode: zh-CN
+title: "waringhu's BLOG"
+theme: zozo
+
+# 首页显示文章数量
+paginate: 4
+
+authoe:
+  name: "waringhu"
+
+# 显示的文章摘要长度（单位未知）
+summaryLength: 10
+
+menu:
+  main:
+    - name: "Home"
+      weight: 10
+      url: "/"
+    - name: "Archive"
+      weight: 20
+      url: "/posts/"
+    - name: "About"
+      weight: 30
+      url: "/about/"
+
+params:
+  subTitle: "这是一个副标题。"
+  footerSlogan: "这是网站脚注 Slogan。"
+  keywords:
+    - waringhu
+    - blog
+    - 产品设计
+  description: "这是网站描述。"
+  # 是否启用 MathJax
+  enableMathJax: true
+  # 是否显示文章摘要
+  enableSummary: true
+  mainSections:
+    - posts
+    - post
+
+social:
+  github: "https://github.com/waringhu/" 

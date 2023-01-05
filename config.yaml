@@ -1,6 +1,6 @@
 baseURL: https://blog.waringhu.com/
-languageCode: zh-CN
-title: "waringhu's BLOG"
+languageCode: zh-cn
+title: "waringhu's blooog"
 theme: zozo
 
 # 首页显示文章数量
@@ -25,8 +25,8 @@ menu:
       url: "/about/"
 
 params:
-  subTitle: "这是一个副标题。"
-  footerSlogan: "这是网站脚注 Slogan。"
+  subTitle: ":-)"
+  footerSlogan: ":-)"
   keywords:
     - waringhu
     - blog
@@ -41,4 +41,6 @@ params:
     - post
 
 social:
+  # icon 来源：https://remixicon.com/
   github: "https://github.com/waringhu/" 
+  mail: "mailto:waringhu@163.com"

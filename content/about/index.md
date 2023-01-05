@@ -1,7 +1,6 @@
 ---
 title: "About waringhu"
 date: 2023-01-03T17:33:40+08:00
-hidden: false
 draft: false
 ---
 

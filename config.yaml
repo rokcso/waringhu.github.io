@@ -10,7 +10,7 @@ authoe:
   name: "waringhu"
 
 # 显示的文章摘要长度（单位未知）
-summaryLength: 10
+summaryLength: 1
 
 menu:
   main:

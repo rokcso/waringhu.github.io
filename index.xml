@@ -1,84 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>waringhu&#39;s BLOG</title>
+    <title>waringhu&#39;s blooog</title>
     <link>https://blog.waringhu.com/</link>
-    <description>Recent content on waringhu&#39;s BLOG</description>
+    <description>Recent content on waringhu&#39;s blooog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-CN</language>
-    <lastBuildDate>Wed, 04 Jan 2023 11:42:04 +0800</lastBuildDate><atom:link href="https://blog.waringhu.com/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>ceui03</title>
-      <link>https://blog.waringhu.com/posts/ceui03/</link>
-      <pubDate>Wed, 04 Jan 2023 11:42:04 +0800</pubDate>
-      
-      <guid>https://blog.waringhu.com/posts/ceui03/</guid>
-      <description>dfsjakhgsfda g fsd gf&amp;rsquo;d s f
-fgsd g fsdghb
-fdsgsdffh</description>
-    </item>
-    
-    <item>
-      <title>ceui02</title>
-      <link>https://blog.waringhu.com/posts/ceui02/</link>
-      <pubDate>Wed, 04 Jan 2023 11:35:04 +0800</pubDate>
-      
-      <guid>https://blog.waringhu.com/posts/ceui02/</guid>
-      <description>dfsjakhgsfda g fsd gf&amp;rsquo;d s f
-fgsd g fsdghb
-fdsgsdffh</description>
-    </item>
-    
-    <item>
-      <title>ceui01</title>
-      <link>https://blog.waringhu.com/posts/ceui01/</link>
-      <pubDate>Wed, 04 Jan 2023 11:32:04 +0800</pubDate>
-      
-      <guid>https://blog.waringhu.com/posts/ceui01/</guid>
-      <description>dfsjakhgsfda g fsd gf&amp;rsquo;d s f
-fgsd g fsdghb
-fdsgsdffh</description>
-    </item>
-    
-    <item>
-      <title>1.4 内容品牌的趋势和未来</title>
-      <link>https://blog.waringhu.com/posts/1.4-%E5%86%85%E5%AE%B9%E5%93%81%E7%89%8C%E7%9A%84%E8%B6%8B%E5%8A%BF%E5%92%8C%E6%9C%AA%E6%9D%A5/</link>
-      <pubDate>Wed, 04 Jan 2023 11:17:17 +0800</pubDate>
-      
-      <guid>https://blog.waringhu.com/posts/1.4-%E5%86%85%E5%AE%B9%E5%93%81%E7%89%8C%E7%9A%84%E8%B6%8B%E5%8A%BF%E5%92%8C%E6%9C%AA%E6%9D%A5/</guid>
-      <description>link: https://xiaobot.net/post/5c20f13f-99ad-4006-9b91-c9d35ddb8f00
-author: @刘飞
-供给侧：传播成本的降低 传播成本的降低，让普通人也有机会通过内容建立品牌。
-信息就是互联网，互联网就是信息。
-供给侧：制作成本的降低 随着电子设备性能还在持续迭代、工具也在持续优化，内容的制作成本只会持续降低。</description>
-    </item>
-    
-    <item>
-      <title>1.3 品牌可能是对每个人都有价值的</title>
-      <link>https://blog.waringhu.com/posts/1.3-%E5%93%81%E7%89%8C%E5%8F%AF%E8%83%BD%E6%98%AF%E5%AF%B9%E6%AF%8F%E4%B8%AA%E4%BA%BA%E9%83%BD%E6%9C%89%E4%BB%B7%E5%80%BC%E7%9A%84/</link>
-      <pubDate>Wed, 04 Jan 2023 11:16:16 +0800</pubDate>
-      
-      <guid>https://blog.waringhu.com/posts/1.3-%E5%93%81%E7%89%8C%E5%8F%AF%E8%83%BD%E6%98%AF%E5%AF%B9%E6%AF%8F%E4%B8%AA%E4%BA%BA%E9%83%BD%E6%9C%89%E4%BB%B7%E5%80%BC%E7%9A%84/</guid>
-      <description>link: https://xiaobot.net/post/31d2161d-fa62-4b22-a805-1adbccd13771
-author: @刘飞
-做品牌可能是对每个人都有价值的 很多人对个人品牌怀有敌意，认为做个人品牌就是网红，网红都是调性不高、一些只想成名的人。但实际上，品牌是互联网给的新的契机，让每个人都有撬杠杆的机会。
-内容即品牌，之于每个普通人都足够有价值，只要满足一个条件 —— 你是要与社会上的人产生连接的。</description>
-    </item>
-    
-    <item>
-      <title>1.2 品牌内容和流量内容</title>
-      <link>https://blog.waringhu.com/posts/1.2-%E5%93%81%E7%89%8C%E5%86%85%E5%AE%B9%E5%92%8C%E6%B5%81%E9%87%8F%E5%86%85%E5%AE%B9/</link>
-      <pubDate>Wed, 04 Jan 2023 11:15:04 +0800</pubDate>
-      
-      <guid>https://blog.waringhu.com/posts/1.2-%E5%93%81%E7%89%8C%E5%86%85%E5%AE%B9%E5%92%8C%E6%B5%81%E9%87%8F%E5%86%85%E5%AE%B9/</guid>
-      <description>link: https://xiaobot.net/post/33d6bad0-3045-42b1-b8cd-e2ef00d948a9
-author: @刘飞
-内容思路：独创与模仿 品牌价值即差异化的价值，所以品牌的内容，也是尽可能要差异化的。
-如果没有特色、同质化，在品牌方面，一定是大的吃掉小的。
-对于流量逻辑，不仅不鼓励独创，还要强调高效率地模仿。
-内容路径：作坊与工厂 品牌内容是难以工业化生产的。</description>
-    </item>
-    
+    <language>zh-cn</language><atom:link href="https://blog.waringhu.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About waringhu</title>
       <link>https://blog.waringhu.com/about/</link>
@@ -88,17 +15,6 @@ author: @刘飞
       <description>Hi there. 👋
 I&amp;rsquo;m waringhu, nice to meet you!
 可能活跃在「即刻」。</description>
-    </item>
-    
-    <item>
-      <title>1.1 什么，是品牌？</title>
-      <link>https://blog.waringhu.com/posts/1.1-%E4%BB%80%E4%B9%88%E6%98%AF%E5%93%81%E7%89%8C/</link>
-      <pubDate>Tue, 03 Jan 2023 16:57:04 +0800</pubDate>
-      
-      <guid>https://blog.waringhu.com/posts/1.1-%E4%BB%80%E4%B9%88%E6%98%AF%E5%93%81%E7%89%8C/</guid>
-      <description>link: https://xiaobot.net/post/ff30ce63-2fcb-4695-8e7d-90ff8aff60de
-author: @刘飞
-什么是品牌？ American Marketing Association Dictionary 对品牌的定义是：将卖家（sellers）的商品或服务与其他卖家的商品或服务区分开来的名字、术语、设计、符号或任何其他特征。</description>
     </item>
     
   </channel>

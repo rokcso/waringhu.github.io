@@ -40,7 +40,7 @@ params:
     - posts
     - post
   valine:
-    enable: true
+    enable: false
     appId: ETRRV1wgYc8qfp4mfO4lGqCM-gzGzoHsz
     appKey: 4MNV8kPxKZDaZgzOVzkRQBp0
     placeholder: ""

@@ -12,6 +12,13 @@ authoe:
 # 显示的文章摘要长度（单位未知）
 summaryLength: 1
 
+# 是否禁止将网站路径转换成小写
+disablePathToLower: true
+
+# 生成的文章的路径
+permalinks:
+  posts: "/posts/:year:month:day/:slug/"
+
 menu:
   main:
     - name: "Home"

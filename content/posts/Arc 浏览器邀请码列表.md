@@ -2,7 +2,7 @@
 title: "Arc 浏览器邀请码列表"
 date: 2023-02-17T16:09:34+08:00
 draft: false
-slug: "Arc Browser Invitation Code List"
+slug: "Gift Arc"
 tags:
     - 产品分享
 ---

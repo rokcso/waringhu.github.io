@@ -11,8 +11,9 @@ tags:
 
 | 序号 |邀请链接 | 生成时间 | 是否有效 |
 | :-: | :-: | :-: | :-: |
-| 01 | https://arc.net/gift/7e248815 | 2023.02.28 | ✅ |
-| 02 | https://arc.net/gift/a2dca1b9 | 2023.02.21 | ✅ |
-| 03 | https://arc.net/gift/30051ab1 | 2023.02.05 | ❌ |
+| 01 | https://arc.net/gift/ba15a9cc | 2023.03.10 | ✅ |
+| 02 | https://arc.net/gift/7e248815 | 2023.02.28 | ✅ |
+| 03 | https://arc.net/gift/a2dca1b9 | 2023.02.21 | ✅ |
+| 04 | https://arc.net/gift/30051ab1 | 2023.02.05 | ❌ |
 
 > 注册过程中遇到问题可在评论区留言。

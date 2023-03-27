@@ -55,4 +55,4 @@ params:
 social:
   # icon 来源：https://remixicon.com/
   github: "https://github.com/waringhu/" 
-  mail: "mailto:waringhu@gmail.com?body=from_waringhu's_blog"
+  mail: "mailto:waringhu@gmail.com?body=%0d%0a%0d%0a%0d%0afrom_waringhu's_blog"

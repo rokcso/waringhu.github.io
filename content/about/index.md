@@ -10,4 +10,4 @@ I'm **waringhu**, nice to meet you!
 
 可能活跃在「[即刻](https://okjk.co/nkcDuq)」。
 
-本站评论已关闭，如有需要可[邮件](mailto:waringhu@gmail.com?bbc=from_waringhu's_blog)交流。
+本站评论已关闭，如有需要可[邮件](mailto:waringhu@gmail.com?body=from_waringhu's_blog)交流。

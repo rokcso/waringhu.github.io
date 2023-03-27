@@ -17,5 +17,3 @@ tags:
 | 04 | https://arc.net/gift/7e248815 | 2023.02.28 | ✅ |
 | 05 | https://arc.net/gift/a2dca1b9 | 2023.02.21 | ✅ |
 | 06 | https://arc.net/gift/30051ab1 | 2023.02.05 | ❌ |
-
-> 注册过程中遇到问题可在评论区留言。

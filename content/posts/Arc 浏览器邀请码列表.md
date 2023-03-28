@@ -13,7 +13,11 @@ tags:
 | :-: | :-: | :-: | :-: |
 | 01 | https://arc.net/gift/93965337 | 2023.03.24 | ❌ |
 | 02 | https://arc.net/gift/796c7acf | 2023.03.17 | ❌ |
-| 03 | https://arc.net/gift/ba15a9cc | 2023.03.10 | ✅ |
-| 04 | https://arc.net/gift/7e248815 | 2023.02.28 | ✅ |
+| 03 | https://arc.net/gift/ba15a9cc | 2023.03.10 | ❌ |
+| 04 | https://arc.net/gift/7e248815 | 2023.02.28 | ❌ |
 | 05 | https://arc.net/gift/a2dca1b9 | 2023.02.21 | ❌ |
 | 06 | https://arc.net/gift/30051ab1 | 2023.02.05 | ❌ |
+
+**.log**
+
+2023.03.28 14:22 所有邀请码均已消耗完，最快 4 天后可更新。

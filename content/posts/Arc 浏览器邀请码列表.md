@@ -11,7 +11,7 @@ tags:
 
 | 序号 |邀请链接 | 生成时间 | 是否有效 |
 | :-: | :-: | :-: | :-: |
-| 01 | https://arc.net/gift/7c265587 | 2023.04.10 | ✅ |
+| 01 | https://arc.net/gift/7c265587 | 2023.04.10 | ❌ |
 | 02 | https://arc.net/gift/d1f3b60b | 2023.03.31 | ❌ |
 | 03 | https://arc.net/gift/93965337 | 2023.03.24 | ❌ |
 | 04 | https://arc.net/gift/796c7acf | 2023.03.17 | ❌ |
@@ -20,5 +20,5 @@ tags:
 | 07 | https://arc.net/gift/a2dca1b9 | 2023.02.21 | ❌ |
 | 08 | https://arc.net/gift/30051ab1 | 2023.02.05 | ❌ |
 
-
+## log. 预计 2023-04-17 可获得新的邀请链接
 

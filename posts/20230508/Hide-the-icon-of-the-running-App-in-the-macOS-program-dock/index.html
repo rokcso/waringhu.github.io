@@ -8,11 +8,11 @@
 	
 	
 	
-	<title>Posts ｜ waringhu&#39;s blooog</title>
+	<title>macOS 隐藏程序坞中正在运行的 App 的图标 ｜ waringhu&#39;s blooog</title>
 	
     
     
-    <meta name="description" content="这是网站描述。" />
+    <meta name="description" content="操作环境：macOs Ventura 13." />
     
 
     
@@ -21,8 +21,6 @@
     
 
 	
-	<link rel="alternate" type="application/rss+xml" href="https://blog.waringhu.com/posts/index.xml" title="waringhu's blooog" />
-    
     
     <link rel="shortcut icon" href="https://blog.waringhu.com/images/favicon.ico" />
 
@@ -91,39 +89,53 @@
     </div>
 </div>
         <div class="content">
-            <div class="list_with_title">
-                
-                <div class="listing_title">2023</div>
-                <div class="listing">
-                    
-                    <div class="listing_item">
-                        <div class="listing_post">
-                            <a href="/posts/20230508/Hide-the-icon-of-the-running-App-in-the-macOS-program-dock/">macOS 隐藏程序坞中正在运行的 App 的图标</a>
-                            <div class="post_time"><span class="date">05-08</span></div>
-                        </div>
+            <div class="post_page">
+                <div class="post animate__animated animate__fadeInDown">
+                    <div class="post_title post_detail_title">
+                        <h2><a href='/posts/20230508/Hide-the-icon-of-the-running-App-in-the-macOS-program-dock/'>macOS 隐藏程序坞中正在运行的 App 的图标</a></h2>
+                        <span class="date">2023.05.08</span>
                     </div>
-                    
-                    <div class="listing_item">
-                        <div class="listing_post">
-                            <a href="/posts/20230217/Gift-Arc/">Arc 浏览器邀请码列表</a>
-                            <div class="post_time"><span class="date">02-17</span></div>
+                    <div class="post_content markdown"><blockquote>
+<p>操作环境：macOs Ventura 13.3.1 (a) (22E772610a)</p>
+</blockquote>
+<p>如下图，钉钉为正在运行中的 App，其图标显示在 macOS 程序坞中，但是我希望将其图标隐藏。</p>
+<p><img src="https://waringhu-md-img-oss.oss-cn-hangzhou.aliyuncs.com/md-img/image-20230508095242443.png" alt="image-20230508095242443"></p>
+<p>即 App 保持运行中但是不在程序坞中显示 App 图标。这里仅推荐修改 App <code>Info.plist</code> 一种方式。</p>
+<p>据网上其他用户的分享，该方式可能导致 App 无法正常运行，可实际尝试后判断是否使用该方式。</p>
+<h1 id="具体实现">具体实现</h1>
+<p>在 Finder 中「应用程序」文件夹下找到「钉钉.app」，点击右键选择「显示包内容」，点击「Contents」，找到「Info.plist」文件并打开。</p>
+<p><img src="https://waringhu-md-img-oss.oss-cn-hangzhou.aliyuncs.com/md-img/image-20230508095914499.png" alt="image-20230508095914499"></p>
+<p>在 <code>&lt;dict&gt;</code> 中添加如下两行代码：</p>
+<pre tabindex="0"><code>&lt;key&gt;LSUIElement&lt;/key&gt;
+&lt;string&gt;1&lt;/string&gt;
+</code></pre><p><img src="https://waringhu-md-img-oss.oss-cn-hangzhou.aliyuncs.com/md-img/image-20230508100021611.png" alt="image-20230508100021611"></p>
+<p>保存 <code>Info.plist</code> 后重启钉钉 App。</p>
+<p>完成，此时钉钉正在运行中，但是程序坞中并无其 App 图标。</p>
+<p>如果在修改 <code>Info.plist</code> 文件后重启钉钉 App 提示应用程序无法打开，则可以删除 <code>Info.plist</code> 文件中添加的代码后重启钉钉 App 并在退出钉钉 App 后重新向 <code>Info.plist</code> 中添加代码后重启钉钉 App。</p>
+</div>
+                    <div class="post_footer">
+                        
+                        <div class="meta">
+                            <div class="info">
+                                <span class="field tags">
+                                    <i class="ri-stack-line"></i>
+                                    
+                                    <a href="https://blog.waringhu.com/tags/%E6%8A%80%E5%B7%A7/">技巧</a>
+                                    
+                                </span>
+                            </div>
                         </div>
+                        
                     </div>
-                    
-                    <div class="listing_item">
-                        <div class="listing_post">
-                            <a href="/posts/20230115/Cognitive-Bias-Knowledge-Handbook-via-Feishu/">认知偏差知识手册 via 飞书</a>
-                            <div class="post_time"><span class="date">01-15</span></div>
-                        </div>
-                    </div>
-                    
                 </div>
                 
+                
+                <div class="doc_comments"></div>
+                
             </div>
-            <div class="pagination"></div>
         </div>
-        <a id="back_to_top" href="#" class="back_to_top"><i class="ri-arrow-up-s-line"></i></a>
     </div>
+    <a id="back_to_top" href="#" class="back_to_top"><i class="ri-arrow-up-s-line"></i></a>
     <footer class="footer">
     <div class="powered_by">
         Copyright &copy; 2023 <a href="https://blog.waringhu.com/">waringhu</a>, 

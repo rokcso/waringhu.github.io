@@ -4,7 +4,7 @@ date: 2023-05-08T10:07:55+08:00
 draft: false
 slug: "Hide the icon of the running App in the macOS program dock"
 tags:
-    - 技巧
+    - 计算机基础技能
 ---
 
 2023-05-10 15:02 更新：如下操作之后当时钉钉可正常启动、使用，但是今天发现无法正常启动，不建议再对钉钉使用以下方式（其他 App 暂为尝试）。

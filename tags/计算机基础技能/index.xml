@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on waringhu&#39;s blooog</title>
-    <link>https://blog.waringhu.com/posts/</link>
-    <description>Recent content in Posts on waringhu&#39;s blooog</description>
+    <title>计算机基础技能 on waringhu&#39;s blooog</title>
+    <link>https://blog.waringhu.com/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80%E6%8A%80%E8%83%BD/</link>
+    <description>Recent content in 计算机基础技能 on waringhu&#39;s blooog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 28 Jun 2023 10:57:44 +0800</lastBuildDate><atom:link href="https://blog.waringhu.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 28 Jun 2023 10:57:44 +0800</lastBuildDate><atom:link href="https://blog.waringhu.com/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80%E6%8A%80%E8%83%BD/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>macOS 版微信使用系统默认浏览器打开链接</title>
       <link>https://blog.waringhu.com/posts/20230628/Wechat-for-macOS-uses-the-systems-default-browser-to-open-the-link/</link>
@@ -23,15 +23,6 @@
       
       <guid>https://blog.waringhu.com/posts/20230508/Hide-the-icon-of-the-running-App-in-the-macOS-program-dock/</guid>
       <description>2023-05-10 15:02 更新：如下操作之后当时钉钉可正常启动、使用，但是今天发现无法正常启动，不建议再对钉钉使用以下方式（其他 App 暂为尝试）。</description>
-    </item>
-    
-    <item>
-      <title>Arc 浏览器邀请码列表</title>
-      <link>https://blog.waringhu.com/posts/20230217/Gift-Arc/</link>
-      <pubDate>Fri, 17 Feb 2023 16:09:34 +0800</pubDate>
-      
-      <guid>https://blog.waringhu.com/posts/20230217/Gift-Arc/</guid>
-      <description>已经注册 Arc 浏览器的用户每 7 天可生成 1 个新邀请链接，每个链接可邀请 5 个用户。</description>
     </item>
     
   </channel>

@@ -43,5 +43,14 @@
       <description>已经注册 Arc 浏览器的用户每 7 天可生成 1 个新邀请链接，每个链接可邀请 5 个用户。</description>
     </item>
     
+    <item>
+      <title>Windows 10 家庭和学生版「本地组策略编辑器」打不开</title>
+      <link>https://blog.waringhu.com/post/2021/03/windows-local-group/</link>
+      <pubDate>Tue, 30 Mar 2021 18:59:50 +0800</pubDate>
+      
+      <guid>https://blog.waringhu.com/post/2021/03/windows-local-group/</guid>
+      <description>在桌面点击鼠标右键，选择新建，点击文本文档。 不需要命名，直接打开新建的文本文档，复制粘贴以下内容，保存然后关闭该文本文档 @echo off pushd &amp;#34;%~dp0&amp;#34; dir /b C:\Windows\servicing\Packages\Microsoft-Windows-GroupPolicy-ClientExtensions-Package~3*.</description>
+    </item>
+    
   </channel>
 </rss>

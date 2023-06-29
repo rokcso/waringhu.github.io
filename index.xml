@@ -53,6 +53,15 @@
     </item>
     
     <item>
+      <title>Windows 10 提示管理员已阻止你运行此应用</title>
+      <link>https://blog.waringhu.com/post/2021/03/windows-admin-block/</link>
+      <pubDate>Tue, 30 Mar 2021 19:20:44 +0800</pubDate>
+      
+      <guid>https://blog.waringhu.com/post/2021/03/windows-admin-block/</guid>
+      <description>案发现场 这个问题是发生在我安装 LoadRunner-11 的过程中，右键「以管理员身份运行」时出现如下弹窗提示。</description>
+    </item>
+    
+    <item>
       <title>Windows 10 家庭和学生版「本地组策略编辑器」打不开</title>
       <link>https://blog.waringhu.com/post/2021/03/windows-local-group/</link>
       <pubDate>Tue, 30 Mar 2021 18:59:50 +0800</pubDate>

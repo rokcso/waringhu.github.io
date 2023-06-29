@@ -2,7 +2,7 @@
 title: "macOS 版微信使用系统默认浏览器打开链接"
 date: 2023-06-28T10:57:44+08:00
 draft: false
-slug: "Wechat for macOS uses the system's default browser to open the link"
+slug: "macOS-wechat-browser"
 tags:
     - 计算机基础技能
 ---

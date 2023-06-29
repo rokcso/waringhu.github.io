@@ -2,7 +2,7 @@
 title: "macOS 隐藏程序坞中正在运行的 App 的图标"
 date: 2023-05-08T10:07:55+08:00
 draft: false
-slug: "Hide the icon of the running App in the macOS program dock"
+slug: "macOS-app-icon"
 tags:
     - 计算机基础技能
 ---

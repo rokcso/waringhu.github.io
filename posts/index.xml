@@ -44,6 +44,15 @@
     </item>
     
     <item>
+      <title>破解 LoadRunner-11 时添加 New License 出错</title>
+      <link>https://blog.waringhu.com/post/2021/03/loadrunner11-new-license/</link>
+      <pubDate>Tue, 30 Mar 2021 19:49:04 +0800</pubDate>
+      
+      <guid>https://blog.waringhu.com/post/2021/03/loadrunner11-new-license/</guid>
+      <description>ERROR-1 Cannot save the license information because access to the registry is denied.</description>
+    </item>
+    
+    <item>
       <title>安装 LoadRunner-11 时 Microsoft Visual C&#43;&#43; 组件安装出错</title>
       <link>https://blog.waringhu.com/post/2021/03/loadrunner11-error/</link>
       <pubDate>Tue, 30 Mar 2021 19:40:11 +0800</pubDate>

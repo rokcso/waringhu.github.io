@@ -25,6 +25,6 @@ tags:
 
 ![Image.png](https://res.craft.do/user/full/0136fdf8-d4d1-b818-7ec2-b07d86288c28/doc/A90628AD-56EE-4C04-A5B6-38BEE0BE6A49/834B0AB6-34DF-450D-990D-7FC1E81A2A1D_2/3s8CQuXPzkDUcm1OQyW5520r0Ek7DRuyu2pHRXSB77Az/Image.png)
 
-**注意：**以上两种方式均仅对纯文字链接生效，已经被微信解析的卡片式链接仍会通过微信内置浏览器打开。
+**注意**：以上两种方式均仅对纯文字链接生效，已经被微信解析的卡片式链接仍会通过微信内置浏览器打开。
 
 ![Image.png](https://res.craft.do/user/full/0136fdf8-d4d1-b818-7ec2-b07d86288c28/doc/A90628AD-56EE-4C04-A5B6-38BEE0BE6A49/C50EE79F-F40F-4C47-B207-66C8A8543085_2/mqHQMnh657RtjfFUQ3kMlzl7tid1twbob02mYfZxWMEz/Image.png)

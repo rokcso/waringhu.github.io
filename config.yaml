@@ -17,7 +17,7 @@ disablePathToLower: true
 
 # 生成的文章的路径
 permalinks:
-  posts: "/post/:slug/"
+  posts: "/post/:year/:month/:slug/"
 
 menu:
   main:

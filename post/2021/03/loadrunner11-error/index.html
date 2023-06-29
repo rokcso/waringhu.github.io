@@ -8,11 +8,11 @@
 	
 	
 	
-	<title>Posts ｜ waringhu&#39;s blooog</title>
+	<title>安装 LoadRunner-11 时 Microsoft Visual C&#43;&#43; 组件安装出错 ｜ waringhu&#39;s blooog</title>
 	
     
     
-    <meta name="description" content="这是网站描述。" />
+    <meta name="description" content="下面将我所有尝试过的方法都罗列了出来，如果一次不能成功还可以试试其他方法。" />
     
 
     
@@ -21,8 +21,6 @@
     
 
 	
-	<link rel="alternate" type="application/rss+xml" href="https://blog.waringhu.com/posts/index.xml" title="waringhu's blooog" />
-    
     
     <link rel="shortcut icon" href="https://blog.waringhu.com/images/favicon.ico" />
 
@@ -91,72 +89,54 @@
     </div>
 </div>
         <div class="content">
-            <div class="list_with_title">
-                
-                <div class="listing_title">2023</div>
-                <div class="listing">
-                    
-                    <div class="listing_item">
-                        <div class="listing_post">
-                            <a href="/post/2023/06/semantic-version/">语义化版本控制规范 2.0.0</a>
-                            <div class="post_time"><span class="date">06-29</span></div>
-                        </div>
+            <div class="post_page">
+                <div class="post animate__animated animate__fadeInDown">
+                    <div class="post_title post_detail_title">
+                        <h2><a href='/post/2021/03/loadrunner11-error/'>安装 LoadRunner-11 时 Microsoft Visual C&#43;&#43; 组件安装出错</a></h2>
+                        <span class="date">2021.03.30</span>
                     </div>
-                    
-                    <div class="listing_item">
-                        <div class="listing_post">
-                            <a href="/post/2023/06/macOS-wechat-browser/">macOS 版微信使用系统默认浏览器打开链接</a>
-                            <div class="post_time"><span class="date">06-28</span></div>
+                    <div class="post_content markdown"><p>下面将我所有尝试过的方法都罗列了出来，如果一次不能成功还可以试试其他方法。</p>
+<h1 id="round-1">ROUND-1</h1>
+<ol>
+<li>打开 LoadRunnr-11 的文件夹，进入 <code>loadrunner-11\Additional Components\IDE Add-Ins\MS Visual Studio .NET</code>。</li>
+<li>运行 <code>LRVS2005IDEAddInSetup.exe</code>。</li>
+<li>再次安装 <code>loadrunner-11</code>。</li>
+</ol>
+<p><img src="https://waringhu-md-img-oss.oss-cn-hangzhou.aliyuncs.com/md-img/2341884-20210330193931326-1961780710.png" alt=""></p>
+<h1 id="round-2">ROUND-2</h1>
+<ol>
+<li>打开 LoadRunnr-11 的文件夹，进入 <code>loadrunner-11\lrunner\Chs\prerequisites\vc2005_sp1_redist</code>。</li>
+<li>运行 <code>vcredist_x86.exe</code>。</li>
+<li>再次安装 <code>loadrunner-11</code>。</li>
+</ol>
+<p><img src="https://waringhu-md-img-oss.oss-cn-hangzhou.aliyuncs.com/md-img/2341884-20210330193941354-558612736.png" alt=""></p>
+<h1 id="round-3">ROUND-3</h1>
+<p>将 ROUND-2 里面的 <code>vcredist_x86.exe</code> 解压（如何解压 <code>.exe</code> 文件请自行搜索），在解压得到的 <code>vcredist_x86</code> 文件夹里找到 <code>VCREDI~3.EXE</code> 文件，运行该文件。</p>
+<p>然后再次安装 <code>loadrunner-11</code>。</p>
+</div>
+                    <div class="post_footer">
+                        
+                        <div class="meta">
+                            <div class="info">
+                                <span class="field tags">
+                                    <i class="ri-stack-line"></i>
+                                    
+                                    <a href="https://blog.waringhu.com/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80%E6%8A%80%E8%83%BD/">计算机基础技能</a>
+                                    
+                                </span>
+                            </div>
                         </div>
+                        
                     </div>
-                    
-                    <div class="listing_item">
-                        <div class="listing_post">
-                            <a href="/post/2023/05/macOS-app-icon/">macOS 隐藏程序坞中正在运行的 App 的图标</a>
-                            <div class="post_time"><span class="date">05-08</span></div>
-                        </div>
-                    </div>
-                    
-                    <div class="listing_item">
-                        <div class="listing_post">
-                            <a href="/post/2023/02/arc-gift-code/">Arc 浏览器邀请码列表</a>
-                            <div class="post_time"><span class="date">02-17</span></div>
-                        </div>
-                    </div>
-                    
                 </div>
                 
-                <div class="listing_title">2021</div>
-                <div class="listing">
-                    
-                    <div class="listing_item">
-                        <div class="listing_post">
-                            <a href="/post/2021/03/loadrunner11-error/">安装 LoadRunner-11 时 Microsoft Visual C&#43;&#43; 组件安装出错</a>
-                            <div class="post_time"><span class="date">03-30</span></div>
-                        </div>
-                    </div>
-                    
-                    <div class="listing_item">
-                        <div class="listing_post">
-                            <a href="/post/2021/03/windows-admin-block/">Windows 10 提示管理员已阻止你运行此应用</a>
-                            <div class="post_time"><span class="date">03-30</span></div>
-                        </div>
-                    </div>
-                    
-                    <div class="listing_item">
-                        <div class="listing_post">
-                            <a href="/post/2021/03/windows-local-group/">Windows 10 家庭和学生版「本地组策略编辑器」打不开</a>
-                            <div class="post_time"><span class="date">03-30</span></div>
-                        </div>
-                    </div>
-                    
-                </div>
+                
+                <div class="doc_comments"></div>
                 
             </div>
-            <div class="pagination"></div>
         </div>
-        <a id="back_to_top" href="#" class="back_to_top"><i class="ri-arrow-up-s-line"></i></a>
     </div>
+    <a id="back_to_top" href="#" class="back_to_top"><i class="ri-arrow-up-s-line"></i></a>
     <footer class="footer">
     <div class="powered_by">
         Copyright &copy; 2023 <a href="https://blog.waringhu.com/">waringhu</a>, 

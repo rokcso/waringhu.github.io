@@ -26,6 +26,15 @@
     </item>
     
     <item>
+      <title>安装 LoadRunner-11 时 Microsoft Visual C&#43;&#43; 组件安装出错</title>
+      <link>https://blog.waringhu.com/post/2021/03/loadrunner11-error/</link>
+      <pubDate>Tue, 30 Mar 2021 19:40:11 +0800</pubDate>
+      
+      <guid>https://blog.waringhu.com/post/2021/03/loadrunner11-error/</guid>
+      <description>下面将我所有尝试过的方法都罗列了出来，如果一次不能成功还可以试试其他方法。</description>
+    </item>
+    
+    <item>
       <title>Windows 10 提示管理员已阻止你运行此应用</title>
       <link>https://blog.waringhu.com/post/2021/03/windows-admin-block/</link>
       <pubDate>Tue, 30 Mar 2021 19:20:44 +0800</pubDate>

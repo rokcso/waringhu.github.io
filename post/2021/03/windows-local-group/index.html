@@ -102,18 +102,18 @@
 <ol start="2">
 <li>不需要命名，直接打开新建的文本文档，复制粘贴以下内容，保存然后关闭该文本文档</li>
 </ol>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>@echo off
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>pushd <span style="color:#e6db74">&#34;%~dp0&#34;</span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>dir /b C:<span style="color:#ae81ff">\W</span>indows<span style="color:#ae81ff">\s</span>ervicing<span style="color:#ae81ff">\P</span>ackages<span style="color:#ae81ff">\M</span>icrosoft-Windows-GroupPolicy-ClientExtensions-Package~3*.mum &gt;List.txt
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>dir /b C:<span style="color:#ae81ff">\W</span>indows<span style="color:#ae81ff">\s</span>ervicing<span style="color:#ae81ff">\P</span>ackages<span style="color:#ae81ff">\M</span>icrosoft-Windows-GroupPolicy-ClientTools-Package~3*.mum &gt;&gt;List.txt
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> /f %%i in <span style="color:#f92672">(</span><span style="color:#e6db74">&#39;findstr /i . List.txt 2^&gt;nul&#39;</span><span style="color:#f92672">)</span> <span style="color:#66d9ef">do</span> dism /online /norestart /add-package:<span style="color:#e6db74">&#34;C:\Windows\servicing\Packages\%%i&#34;</span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>pause
-</span></span></code></pre></div><p><img src="https://img2020.cnblogs.com/blog/2341884/202103/2341884-20210330184900169-849110347.png" alt=""></p>
+<pre tabindex="0"><code>@echo off
+
+pushd &#34;%~dp0&#34;
+
+dir /b C:\Windows\servicing\Packages\Microsoft-Windows-GroupPolicy-ClientExtensions-Package~3*.mum &gt;List.txt
+
+dir /b C:\Windows\servicing\Packages\Microsoft-Windows-GroupPolicy-ClientTools-Package~3*.mum &gt;&gt;List.txt
+
+for /f %%i in (&#39;findstr /i . List.txt 2^&gt;nul&#39;) do dism /online /norestart /add-package:&#34;C:\Windows\servicing\Packages\%%i&#34;
+
+pause
+</code></pre><p><img src="https://img2020.cnblogs.com/blog/2341884/202103/2341884-20210330184900169-849110347.png" alt=""></p>
 <ol start="3">
 <li>将该文本文档文件扩展名改为 <code>.cmd</code>。</li>
 </ol>

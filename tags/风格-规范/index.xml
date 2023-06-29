@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>风格 &amp; 规范 on waringhu&#39;s blooog</title>
+    <link>https://blog.waringhu.com/tags/%E9%A3%8E%E6%A0%BC-%E8%A7%84%E8%8C%83/</link>
+    <description>Recent content in 风格 &amp; 规范 on waringhu&#39;s blooog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 29 Jun 2023 11:39:05 +0800</lastBuildDate><atom:link href="https://blog.waringhu.com/tags/%E9%A3%8E%E6%A0%BC-%E8%A7%84%E8%8C%83/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>语义化版本控制规范 2.0.0</title>
+      <link>https://blog.waringhu.com/posts/20230629/Semantic-Versioning-2.0.0/</link>
+      <pubDate>Thu, 29 Jun 2023 11:39:05 +0800</pubDate>
+      
+      <guid>https://blog.waringhu.com/posts/20230629/Semantic-Versioning-2.0.0/</guid>
+      <description>link: 语义化版本控制规范 2.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -44,6 +44,15 @@
     </item>
     
     <item>
+      <title>Windows 10 已经连接网络，但是浏览器仍提示「未连接到互联网」</title>
+      <link>https://blog.waringhu.com/post/2021/05/windows10-network/</link>
+      <pubDate>Mon, 10 May 2021 11:20:23 +0800</pubDate>
+      
+      <guid>https://blog.waringhu.com/post/2021/05/windows10-network/</guid>
+      <description>案发现场 Windows 已经连接网络，且显示 Internet 访问，但是使用浏览器访问网页却提示「未连接到互联网」，大概率是代理服务器的问题。</description>
+    </item>
+    
+    <item>
       <title>破解 LoadRunner-11 时添加 New License 出错</title>
       <link>https://blog.waringhu.com/post/2021/03/loadrunner11-new-license/</link>
       <pubDate>Tue, 30 Mar 2021 19:49:04 +0800</pubDate>

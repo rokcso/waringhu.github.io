@@ -9,28 +9,28 @@
     <lastBuildDate>Thu, 29 Jun 2023 11:39:05 +0800</lastBuildDate><atom:link href="https://blog.waringhu.com/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>语义化版本控制规范 2.0.0</title>
-      <link>https://blog.waringhu.com/post/semantic-versioning/</link>
+      <link>https://blog.waringhu.com/post/semantic-version/</link>
       <pubDate>Thu, 29 Jun 2023 11:39:05 +0800</pubDate>
       
-      <guid>https://blog.waringhu.com/post/semantic-versioning/</guid>
+      <guid>https://blog.waringhu.com/post/semantic-version/</guid>
       <description>link: 语义化版本控制规范 2.</description>
     </item>
     
     <item>
       <title>macOS 版微信使用系统默认浏览器打开链接</title>
-      <link>https://blog.waringhu.com/post/Wechat-for-macOS-uses-the-systems-default-browser-to-open-the-link/</link>
+      <link>https://blog.waringhu.com/post/macOS-wechat-browser/</link>
       <pubDate>Wed, 28 Jun 2023 10:57:44 +0800</pubDate>
       
-      <guid>https://blog.waringhu.com/post/Wechat-for-macOS-uses-the-systems-default-browser-to-open-the-link/</guid>
+      <guid>https://blog.waringhu.com/post/macOS-wechat-browser/</guid>
       <description>在 macOS 版微信中点击链接会默认使用微信内置浏览器打开，如果需要使用系统默认浏览器打开还需要点击更多选项选择「使用默认浏览器打开」。</description>
     </item>
     
     <item>
       <title>macOS 隐藏程序坞中正在运行的 App 的图标</title>
-      <link>https://blog.waringhu.com/post/Hide-the-icon-of-the-running-App-in-the-macOS-program-dock/</link>
+      <link>https://blog.waringhu.com/post/macOS-app-icon/</link>
       <pubDate>Mon, 08 May 2023 10:07:55 +0800</pubDate>
       
-      <guid>https://blog.waringhu.com/post/Hide-the-icon-of-the-running-App-in-the-macOS-program-dock/</guid>
+      <guid>https://blog.waringhu.com/post/macOS-app-icon/</guid>
       <description>2023-05-10 15:02 更新：如下操作之后当时钉钉可正常启动、使用，但是今天发现无法正常启动，不建议再对钉钉使用以下方式（其他 App 暂未尝试）。</description>
     </item>
     

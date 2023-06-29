@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="zh-cn" >
 <head>
-	<meta name="generator" content="Hugo 0.109.0">
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -9,11 +8,11 @@
 	
 	
 	
-	<title>waringhu&#39;s blooog ｜ :-) </title>
+	<title>macOS 隐藏程序坞中正在运行的 App 的图标 ｜ waringhu&#39;s blooog</title>
 	
     
     
-    <meta name="description" content="这是网站描述。" />
+    <meta name="description" content="2023-05-10 15:02 更新：如下操作之后当时钉钉可正常启动、使用，但是今天发现无法正常启动，不建议再对钉钉使用以下方式（其他 App 暂未尝试）。" />
     
 
     
@@ -22,8 +21,6 @@
     
 
 	
-	<link rel="alternate" type="application/rss+xml" href="https://blog.waringhu.com/index.xml" title="waringhu's blooog" />
-    
     
     <link rel="shortcut icon" href="https://blog.waringhu.com/images/favicon.ico" />
 
@@ -92,140 +89,54 @@
     </div>
 </div>
         <div class="content">
-            
-
-<div class="post animated fadeInDown">
-    <div class="post_title">
-        <h2><a href='/post/semantic-version/'>语义化版本控制规范 2.0.0</a></h2>
-    </div>
-    
-    <div class="list">
-        <div class="post_content markdown">
-            <p>link: 语义化版本控制规范 2.......</p>
-        </div>
-    </div>
-    
-    <div class="post_footer">
-        <div class="meta">
-            <div class="info">
-                <span class="field">
-                    <i class="ri-map-pin-time-line"></i>
-                    <span class="date">2023.06.29</span>
-                </span>
+            <div class="post_page">
+                <div class="post animate__animated animate__fadeInDown">
+                    <div class="post_title post_detail_title">
+                        <h2><a href='/post/macOS-app-icon/'>macOS 隐藏程序坞中正在运行的 App 的图标</a></h2>
+                        <span class="date">2023.05.08</span>
+                    </div>
+                    <div class="post_content markdown"><p>2023-05-10 15:02 更新：如下操作之后当时钉钉可正常启动、使用，但是今天发现无法正常启动，不建议再对钉钉使用以下方式（其他 App 暂未尝试）。</p>
+<blockquote>
+<p>操作环境：macOs Ventura 13.3.1 (a) (22E772610a)</p>
+</blockquote>
+<p>如下图，钉钉为正在运行中的 App，其图标显示在 macOS 程序坞中，但是我希望将其图标隐藏。</p>
+<p><img src="https://waringhu-md-img-oss.oss-cn-hangzhou.aliyuncs.com/md-img/image-20230508095242443.png" alt="image-20230508095242443"></p>
+<p>即 App 保持运行中但是不在程序坞中显示 App 图标。这里仅推荐修改 App <code>Info.plist</code> 一种方式。</p>
+<p>据网上其他用户的分享，该方式可能导致 App 无法正常运行，可实际尝试后判断是否使用该方式。</p>
+<h1 id="具体实现">具体实现</h1>
+<p>在 Finder 中「应用程序」文件夹下找到「钉钉.app」，点击右键选择「显示包内容」，点击「Contents」，找到「Info.plist」文件并打开。</p>
+<p><img src="https://waringhu-md-img-oss.oss-cn-hangzhou.aliyuncs.com/md-img/image-20230508095914499.png" alt="image-20230508095914499"></p>
+<p>在 <code>&lt;dict&gt;</code> 中添加如下两行代码：</p>
+<pre tabindex="0"><code>&lt;key&gt;LSUIElement&lt;/key&gt;
+&lt;string&gt;1&lt;/string&gt;
+</code></pre><p><img src="https://waringhu-md-img-oss.oss-cn-hangzhou.aliyuncs.com/md-img/image-20230508100021611.png" alt="image-20230508100021611"></p>
+<p>保存 <code>Info.plist</code> 后重启钉钉 App。</p>
+<p>完成，此时钉钉正在运行中，但是程序坞中并无其 App 图标。</p>
+<p>如果在修改 <code>Info.plist</code> 文件后重启钉钉 App 提示应用程序无法打开，则可以删除 <code>Info.plist</code> 文件中添加的代码后重启钉钉 App 并在退出钉钉 App 后重新向 <code>Info.plist</code> 中添加代码后重启钉钉 App。</p>
+</div>
+                    <div class="post_footer">
+                        
+                        <div class="meta">
+                            <div class="info">
+                                <span class="field tags">
+                                    <i class="ri-stack-line"></i>
+                                    
+                                    <a href="https://blog.waringhu.com/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80%E6%8A%80%E8%83%BD/">计算机基础技能</a>
+                                    
+                                </span>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
                 
-                <span class="field tags">
-                    <i class="ri-stack-line"></i>
-                    
-                    <a href="https://blog.waringhu.com/tags/%E7%AC%94%E8%AE%B0/">笔记</a>
-                    
-                    <a href="https://blog.waringhu.com/tags/%E9%A3%8E%E6%A0%BC-%E8%A7%84%E8%8C%83/">风格 &amp; 规范</a>
-                    
-                </span>
+                
+                <div class="doc_comments"></div>
                 
             </div>
         </div>
     </div>
-</div>
-
-<div class="post animated fadeInDown">
-    <div class="post_title">
-        <h2><a href='/post/macOS-wechat-browser/'>macOS 版微信使用系统默认浏览器打开链接</a></h2>
-    </div>
-    
-    <div class="list">
-        <div class="post_content markdown">
-            <p>在 macOS 版微信中点击链接会默认使用微信内置浏览器打开，如果需要使用系统默认浏览器打开还需要点击更多选项选择「使用默认浏览器打开」。......</p>
-        </div>
-    </div>
-    
-    <div class="post_footer">
-        <div class="meta">
-            <div class="info">
-                <span class="field">
-                    <i class="ri-map-pin-time-line"></i>
-                    <span class="date">2023.06.28</span>
-                </span>
-                
-                <span class="field tags">
-                    <i class="ri-stack-line"></i>
-                    
-                    <a href="https://blog.waringhu.com/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80%E6%8A%80%E8%83%BD/">计算机基础技能</a>
-                    
-                </span>
-                
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="post animated fadeInDown">
-    <div class="post_title">
-        <h2><a href='/post/macOS-app-icon/'>macOS 隐藏程序坞中正在运行的 App 的图标</a></h2>
-    </div>
-    
-    <div class="list">
-        <div class="post_content markdown">
-            <p>2023-05-10 15:02 更新：如下操作之后当时钉钉可正常启动、使用，但是今天发现无法正常启动，不建议再对钉钉使用以下方式（其他 App 暂未尝试）。......</p>
-        </div>
-    </div>
-    
-    <div class="post_footer">
-        <div class="meta">
-            <div class="info">
-                <span class="field">
-                    <i class="ri-map-pin-time-line"></i>
-                    <span class="date">2023.05.08</span>
-                </span>
-                
-                <span class="field tags">
-                    <i class="ri-stack-line"></i>
-                    
-                    <a href="https://blog.waringhu.com/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80%E6%8A%80%E8%83%BD/">计算机基础技能</a>
-                    
-                </span>
-                
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="post animated fadeInDown">
-    <div class="post_title">
-        <h2><a href='/post/arc-gift-code/'>Arc 浏览器邀请码列表</a></h2>
-    </div>
-    
-    <div class="list">
-        <div class="post_content markdown">
-            <p>已经注册 Arc 浏览器的用户每 7 天可生成 1 个新邀请链接，每个链接可邀请 5 个用户。......</p>
-        </div>
-    </div>
-    
-    <div class="post_footer">
-        <div class="meta">
-            <div class="info">
-                <span class="field">
-                    <i class="ri-map-pin-time-line"></i>
-                    <span class="date">2023.02.17</span>
-                </span>
-                
-                <span class="field tags">
-                    <i class="ri-stack-line"></i>
-                    
-                    <a href="https://blog.waringhu.com/tags/%E4%BA%A7%E5%93%81%E5%88%86%E4%BA%AB/">产品分享</a>
-                    
-                </span>
-                
-            </div>
-        </div>
-    </div>
-</div>
-
-
-<div class="pagination">
-    
-</div>
-        </div>
-    </div>
+    <a id="back_to_top" href="#" class="back_to_top"><i class="ri-arrow-up-s-line"></i></a>
     <footer class="footer">
     <div class="powered_by">
         Copyright &copy; 2023 <a href="https://blog.waringhu.com/">waringhu</a>, 

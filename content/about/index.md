@@ -16,4 +16,4 @@ I'm **waringhu**, nice to meet you!
 
 本站评论已关闭，如有需要可[邮件](mailto:waringhu@gmail.com?body=%0d%0a%0d%0a%0d%0afrom_waringhu's_blog)交流联系。
 
-🙈 [访问数据](https://umami.waringhu.com/share/etXlrogt/waringhu's%20blog)
+👀 [访问数据](https://umami.waringhu.com/share/etXlrogt/waringhu's%20blog)

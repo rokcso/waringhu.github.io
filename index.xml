@@ -6,7 +6,16 @@
     <description>Recent content on waringhu&#39;s blooog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 29 Jun 2023 11:39:05 +0800</lastBuildDate><atom:link href="https://blog.waringhu.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 09 Aug 2023 10:20:27 +0800</lastBuildDate><atom:link href="https://blog.waringhu.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>如何使用 JavaScript 配置 Umami Track Event</title>
+      <link>https://blog.waringhu.com/post/2023/08/configure-umami-track-event-using-javascript/</link>
+      <pubDate>Wed, 09 Aug 2023 10:20:27 +0800</pubDate>
+      
+      <guid>https://blog.waringhu.com/post/2023/08/configure-umami-track-event-using-javascript/</guid>
+      <description>当前（2023-08-09）我的 umami 部署版本为 Version 1.</description>
+    </item>
+    
     <item>
       <title>语义化版本控制规范 2.0.0</title>
       <link>https://blog.waringhu.com/post/2023/06/semantic-version/</link>

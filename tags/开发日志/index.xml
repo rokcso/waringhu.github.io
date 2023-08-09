@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>开发日志 on waringhu&#39;s blooog</title>
+    <link>https://blog.waringhu.com/tags/%E5%BC%80%E5%8F%91%E6%97%A5%E5%BF%97/</link>
+    <description>Recent content in 开发日志 on waringhu&#39;s blooog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 09 Aug 2023 10:20:27 +0800</lastBuildDate><atom:link href="https://blog.waringhu.com/tags/%E5%BC%80%E5%8F%91%E6%97%A5%E5%BF%97/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>如何使用 JavaScript 配置 Umami Track Event</title>
+      <link>https://blog.waringhu.com/post/2023/08/configure-umami-track-event-using-javascript/</link>
+      <pubDate>Wed, 09 Aug 2023 10:20:27 +0800</pubDate>
+      
+      <guid>https://blog.waringhu.com/post/2023/08/configure-umami-track-event-using-javascript/</guid>
+      <description>当前（2023-08-09）我的 umami 部署版本为 Version 1.</description>
+    </item>
+    
+  </channel>
+</rss>

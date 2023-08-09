@@ -8,11 +8,11 @@
 	
 	
 	
-	<title>如何使用 JavaScript 配置 Umami Track Event ｜ waringhu&#39;s blooog</title>
+	<title>My Products ｜ waringhu&#39;s blooog</title>
 	
     
     
-    <meta name="description" content="当前（2023-08-09）我的 umami 部署版本为 Version 1." />
+    <meta name="description" content="URLxcode x = En/De" />
     
 
     
@@ -96,41 +96,74 @@
             <div class="post_page">
                 <div class="post animate__animated animate__fadeInDown">
                     <div class="post_title post_detail_title">
-                        <h2><a href='/post/2023/08/configure-umami-track-event-using-javascript/'>如何使用 JavaScript 配置 Umami Track Event</a></h2>
+                        <h2><a href='/product/'>My Products</a></h2>
                         <span class="date">2023.08.09</span>
                     </div>
-                    <div class="post_content markdown"><blockquote>
-<p>当前（2023-08-09）我的 umami 部署版本为 Version 1.40.0，官方已经发布版本为 Version 2.4.1</p>
+                    <div class="post_content markdown"><h1 id="urlxcodehttpswwwurlxcodecom"><a href="https://www.urlxcode.com/">URLxcode</a></h1>
+<blockquote>
+<p>x = En/De</p>
 </blockquote>
-<p>Umami Version 1.40 及以上版本支持 Tarck Event，即事件跟踪，简单的说就是可以跟踪用户在网页上面的事件操作，比如点击按钮。</p>
-<p>在<a href="https://umami.is/docs/track-events">官方文档</a>中提供了两种简单配置方案，根据当前（2023-08-09）文档显示可以通过给按钮添加数据属性或者使用 JavaScript 监听按钮的点击事件然后执行 <code>umami.track()</code> 方法上报事件数据。</p>
-<p><strong>调试方法：</strong></p>
-<p>按照官方文档提供的方案进行配置后，访问网页，打开 Chrome 开发者工具中的 Network，然后点击已经配置了 Track Event 的按钮，关注是否有新的名为 <code>collect</code> 的请求被发起，如果有，则关注 Request Payload 中传入的参数是否符合预期。<img src="https://waringhu-md-img-oss.oss-cn-hangzhou.aliyuncs.com/md-img/image-20230809104222411.png" alt="image-20230809104222411"></p>
-<p><strong>问题：</strong></p>
-<p>两种方案在我实践之后均无法成功上报数据，使用 JavaScript 方案时 Chrome 开发者工具 Console 中报错 <code>umami.track is not a function</code>，可能是由于我部署的 umami 版本不支持上述方案，</p>
-<p><strong>解决方案：</strong></p>
-<p>在不升级我部署的 umami 版本的基础上，我最终发现可以通过 JavaScript 监听按钮的点击事件然后执行 <code>umami()</code> 方法上报事件数据。</p>
-<p>比如：</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span>document.<span style="color:#a6e22e">getElementById</span>(<span style="color:#e6db74">&#34;btn-copy&#34;</span>).<span style="color:#a6e22e">onclick</span> <span style="color:#f92672">=</span> () =&gt; <span style="color:#a6e22e">umami</span>(<span style="color:#e6db74">&#34;clickCopyBtn&#34;</span>);
-</span></span></code></pre></div><hr>
-<p>除了使用 JavaScript 方案外，umami Version 1.40.0 应该还支持通过给按钮添加 Class 来配置 Track Event，类的命名格式要求为：</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>umami--&lt;<span style="color:#f92672">event</span>&gt;--&lt;<span style="color:#f92672">event-name</span>&gt;
-</span></span></code></pre></div><p>比如：</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>&lt;<span style="color:#f92672">button</span> <span style="color:#a6e22e">id</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;btn-copy&#34;</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;umami--click--clickCopyBtn&#34;</span>&gt;Copy&lt;/<span style="color:#f92672">button</span>&gt;
-</span></span></code></pre></div><p>注：该方法（添加 Class）未经校验。</p>
+<p>这是一个提供 URL 解码、编码（模式可选）、参数解析能力的在线工具，借助 <a href="https://claude.ai/">Claude 2</a> 手搓而成，不依赖任何第三方框架。</p>
+<p>希望提供优秀的用户体验和最实用的功能。</p>
+<h2 id="功能">功能</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">功能</th>
+<th style="text-align:center">进度</th>
+<th style="text-align:center">上线时间</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">URL 参数 Key 重复提醒</td>
+<td style="text-align:center">🚧</td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">URL 参数转 Json</td>
+<td style="text-align:center">🚧</td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">URL 编码模式切换（<code>encodeURI()</code> or <code>encodeURIComponent()</code>）</td>
+<td style="text-align:center">✅</td>
+<td style="text-align:center">2023.08.07</td>
+</tr>
+<tr>
+<td style="text-align:center">URL 参数解析（输入、输出）</td>
+<td style="text-align:center">✅</td>
+<td style="text-align:center">2023.08.06</td>
+</tr>
+<tr>
+<td style="text-align:center">URL 解码（校验输入合法性）</td>
+<td style="text-align:center">✅</td>
+<td style="text-align:center">2023.08.04</td>
+</tr>
+<tr>
+<td style="text-align:center">URL 编码（校验输入合法性）</td>
+<td style="text-align:center">✅</td>
+<td style="text-align:center">2023.08.04</td>
+</tr>
+<tr>
+<td style="text-align:center">清空输入、输出</td>
+<td style="text-align:center">✅</td>
+<td style="text-align:center">2023.08.04</td>
+</tr>
+<tr>
+<td style="text-align:center">交换输入、输出</td>
+<td style="text-align:center">✅</td>
+<td style="text-align:center">2023.08.04</td>
+</tr>
+<tr>
+<td style="text-align:center">复制输出</td>
+<td style="text-align:center">✅</td>
+<td style="text-align:center">2023.08.04</td>
+</tr>
+</tbody>
+</table>
 </div>
                     <div class="post_footer">
-                        
-                        <div class="meta">
-                            <div class="info">
-                                <span class="field tags">
-                                    <i class="ri-stack-line"></i>
-                                    
-                                    <a href="https://blog.waringhu.com/tags/%E5%BC%80%E5%8F%91%E6%97%A5%E5%BF%97/">开发日志</a>
-                                    
-                                </span>
-                            </div>
-                        </div>
                         
                     </div>
                 </div>

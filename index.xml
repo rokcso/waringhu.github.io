@@ -8,6 +8,15 @@
     <language>zh-cn</language>
     <lastBuildDate>Wed, 09 Aug 2023 10:20:27 +0800</lastBuildDate><atom:link href="https://blog.waringhu.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>My Products</title>
+      <link>https://blog.waringhu.com/product/</link>
+      <pubDate>Wed, 09 Aug 2023 11:02:40 +0800</pubDate>
+      
+      <guid>https://blog.waringhu.com/product/</guid>
+      <description>URLxcode x = En/De</description>
+    </item>
+    
+    <item>
       <title>如何使用 JavaScript 配置 Umami Track Event</title>
       <link>https://blog.waringhu.com/post/2023/08/configure-umami-track-event-using-javascript/</link>
       <pubDate>Wed, 09 Aug 2023 10:20:27 +0800</pubDate>

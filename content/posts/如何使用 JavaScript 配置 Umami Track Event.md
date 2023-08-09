@@ -31,6 +31,8 @@ Umami Version 1.40 及以上版本支持 Tarck Event，即事件跟踪，简单�
 document.getElementById("btn-copy").onclick = () => umami("clickCopyBtn");
 ```
 
+---
+
 除了使用 JavaScript 方案外，umami Version 1.40.0 应该还支持通过给按钮添加 Class 来配置 Track Event，类的命名格式要求为：
 
 ```html
@@ -43,4 +45,4 @@ umami--<event>--<event-name>
 <button id="btn-copy" class="umami--click--clickCopyBtn">Copy</button>
 ```
 
-注：该方法未经校验
+注：该方法（添加 Class）未经校验。

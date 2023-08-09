@@ -12,7 +12,7 @@ I'm **waringhu**, nice to meet you!
 
 最近在学习 SwiftUI，希望能开发一款 iOS 应用。
 
-可能活跃在「[即刻](https://okjk.co/nkcDuq)」。
+可能活跃在[即刻](https://okjk.co/nkcDuq)、[Twitter(X)](https://twitter.com/waringhu)、[GitHub](https://github.com/waringhu)
 
 本站评论已关闭，如有需要可[邮件](mailto:waringhu@gmail.com?body=%0d%0a%0d%0a%0d%0afrom_waringhu's_blog)交流联系。
 

@@ -27,8 +27,11 @@ menu:
     - name: "Archive"
       weight: 20
       url: "/posts/"
-    - name: "About"
+    - name: "Product"
       weight: 30
+      url: "/product"
+    - name: "About"
+      weight: 40
       url: "/about/"
 
 params:
